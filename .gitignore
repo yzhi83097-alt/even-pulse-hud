@@ -5,3 +5,5 @@ dist/
 *.png
 *.mp4
 *.webm
+!demo/
+!demo/*
