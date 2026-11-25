@@ -2,6 +2,9 @@
 
 **Heads Up: Even Realities Hackathon** submission (Track: **Crypto & DeFi**).
 
+- **Demo Video**: https://youtu.be/_58IkIk5bqE
+- **Packaged `.ehpk` Build**: [even-pulse-hud-0.1.0.ehpk](demo/even-pulse-hud-0.1.0.ehpk)
+
 EvenPulse HUD brings glanceable, read-only **Polymarket prediction market odds** and **Hyperliquid / CoinGecko spot & perp feeds (BTC, ETH, SOL, TON, HYPE)** directly onto the **Even Realities G2 576×288 monochrome green HUD**, paired with tap / R1 ring controls and threshold spike alerts.
 
 ## Features
