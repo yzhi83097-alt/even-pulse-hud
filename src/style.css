@@ -1,0 +1,162 @@
+:root {
+  color-scheme: dark;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #07110d;
+  color: #e6f4ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #74f29b;
+}
+
+.sub {
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  color: #8fb39b;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #244a34;
+}
+
+.badge-live {
+  background: rgba(34, 197, 94, 0.18);
+  color: #86efac;
+}
+
+.badge-sim {
+  background: rgba(245, 158, 11, 0.14);
+  color: #fcd34d;
+}
+
+.g2-screen {
+  background: #030a06;
+  border: 1px solid #1e5c37;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 0 24px rgba(52, 211, 153, 0.12);
+}
+
+.g2-meta {
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: #34d399;
+  margin-bottom: 6px;
+}
+
+.g2-canvas {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: #74ff9e;
+  white-space: pre-wrap;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.btn {
+  background: #102419;
+  color: #dcfce7;
+  border: 1px solid #245037;
+  border-radius: 8px;
+  padding: 7px 11px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.btn-active {
+  background: #166534;
+  border-color: #4ade80;
+}
+
+.btn-warn {
+  border-color: #d97706;
+  color: #fde68a;
+}
+
+.watchlist h2,
+.logs h2 {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  color: #8fb39b;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.row {
+  text-align: left;
+  background: #0d1d15;
+  border: 1px solid #1c3a29;
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: #e6f4ea;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row-selected {
+  border-color: #4ade80;
+  background: #132d20;
+}
+
+.row-title {
+  font-family: ui-monospace, monospace;
+  font-size: 0.82rem;
+}
+
+.row-meta {
+  font-size: 0.72rem;
+  color: #8fb39b;
+}
+
+.log-box {
+  margin: 0;
+  background: #09150f;
+  border: 1px solid #1c3a29;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.75rem;
+  color: #9ae6b4;
+  max-height: 150px;
+  overflow: auto;
+}

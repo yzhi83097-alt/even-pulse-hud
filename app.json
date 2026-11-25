@@ -1,0 +1,23 @@
+{
+  "package_id": "com.evenpulse.hud",
+  "edition": "202601",
+  "name": "EvenPulse HUD",
+  "version": "0.1.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Fetches read-only Polymarket prediction odds and Hyperliquid/CoinGecko crypto market prices.",
+      "whitelist": [
+        "https://gamma-api.polymarket.com",
+        "https://api.hyperliquid.xyz",
+        "https://api.coingecko.com"
+      ]
+    }
+  ],
+  "supported_languages": [
+    "en"
+  ]
+}
